@@ -9,7 +9,7 @@ namespace DotNetSourceControl
 
         private void btnGreeting_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome! Hope you have a great day!");
+            MessageBox.Show("Hope you have an amazing day!");
         }
     }
 }
