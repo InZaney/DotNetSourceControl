@@ -33,12 +33,13 @@
             // 
             // btnGreeting
             // 
-            btnGreeting.Location = new Point(72, 79);
+            btnGreeting.Location = new Point(71, 78);
             btnGreeting.Name = "btnGreeting";
             btnGreeting.Size = new Size(146, 64);
             btnGreeting.TabIndex = 0;
             btnGreeting.Text = "Click This Button";
             btnGreeting.UseVisualStyleBackColor = true;
+            btnGreeting.Click += btnGreeting_Click;
             // 
             // Form1
             // 

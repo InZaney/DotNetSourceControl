@@ -6,5 +6,10 @@ namespace DotNetSourceControl
         {
             InitializeComponent();
         }
+
+        private void btnGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Welcome! Hope you have a great day!");
+        }
     }
 }
