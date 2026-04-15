@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnGreeting = new Button();
+            lblGreetings = new Label();
             SuspendLayout();
             // 
             // btnGreeting
@@ -41,19 +42,31 @@
             btnGreeting.UseVisualStyleBackColor = true;
             btnGreeting.Click += btnGreeting_Click;
             // 
+            // lblGreetings
+            // 
+            lblGreetings.AutoSize = true;
+            lblGreetings.Location = new Point(85, 60);
+            lblGreetings.Name = "lblGreetings";
+            lblGreetings.Size = new Size(123, 15);
+            lblGreetings.TabIndex = 1;
+            lblGreetings.Text = "Want a nice message?";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(307, 223);
+            Controls.Add(lblGreetings);
             Controls.Add(btnGreeting);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnGreeting;
+        private Label lblGreetings;
     }
 }
